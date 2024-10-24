@@ -1,0 +1,609 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     /* border: 1px  solid  red; */
+      /* font-family: Arial, Helvetica, sans-serif; */
+      /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-con{
+    width: 100%;
+}
+
+
+
+    .navbar{
+
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+     background-color: #23182D;
+     height: 16vh;
+     position: fixed;
+     justify-content: space-between;
+    }
+
+    .nav-res{
+        display: none;
+    }
+    .nav-right ul{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .nav-left img{
+        width: 23%;
+    }
+
+    ul li{
+        color: white;
+        display: flex;
+        text-decoration: none;
+        font-size: 14px;
+        /* font-weight: 600; */
+    }
+    .nav-right{
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-left{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .nav-right ul{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .mini-box{
+        width: 22px;
+        height: 22px;
+        position: relative;
+        left: 30px;
+        bottom: 20px;
+        background-color: rgba(0, 0, 0, 0.614);
+    }
+
+    .event-planet{
+        width: 100%;
+        height: 73vh;
+        background: url(./event-planet-indore.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+
+
+    .wedding-sec h1{
+        font-family:Arial, Helvetica, sans-serif;
+        /* font-style:inherit; */
+        font-size: 40px;
+        font-weight: 300;
+        font-family: cursive;
+    }
+    .wedding-sec{
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .wedding-sec  p{
+        color: rgba(0, 0, 0, 0.838);
+        display: flex;
+        text-align: center;
+        line-height: 28px;
+    }
+    .wedding-sec h6{
+        font-size: 30px;
+        position: relative;
+        bottom: 30px;
+        
+        color: rgba(0, 0, 0, 0.567);
+    }
+
+    .sec-1 .box:first-child{
+        background: url(./blog-01.jpg);
+        width: 364px;
+        height: 302px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .img-sec .sec-1{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+    .sec-1 .box:nth-child(2){
+          background: url(./blog-02.jpg);
+          width: 364px;
+          height: 302px;
+          background-position: center;
+          background-size: cover;
+    }
+
+    .sec-1 .box:nth-child(3){
+        background: url(./blog-03.jpg);
+        width: 364px;
+        height: 302px;
+        background-position: center;
+        background-size: cover;
+    }
+
+
+    .sec-2{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .sec-2 .box:first-child{
+        width: 364px;
+        height: 302px;
+        background: url(./blog-04.jpg);
+
+        background-position: center;
+        background-size: cover;
+    }
+
+    .sec-2 .box:nth-child(2){
+        background: url(./blog-05.jpg);
+        width: 364px;
+        height: 302px;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+.sec-2 .box:nth-child(3){
+    background: url(./pexels-angel-ayala-321556-28976225.jpg);
+    width: 364px;
+    height: 302px;
+    background-position: center;
+    background-size: cover;
+
+}
+.img-sec{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 50px;
+}
+
+.box h4{
+    color: black;
+    background-color: white;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 255px;
+    height: 60px;
+    position: relative;
+    top: 32px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px;
+    
+}
+.box{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+
+.top h1{
+    /* font-family:Arial, Helvetica, sans-serif; */
+    /* font-style:inherit; */
+    font-size: 40px;
+    color: white;
+
+    font-weight: 300;
+    font-family: cursive;
+}
+.top{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top  p{
+    color:#FD226A;
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+    line-height: 28px;
+}
+.top h6{
+    font-size: 30px;
+    position: relative;
+    bottom: 30px;
+    
+    color: rgb(255, 255, 255);
+}
+
+.service-sec{
+    height:140vh;
+    background-color: #150e1d;
+
+    width: 100%;}
+
+
+
+
+
+    .box-2 img{
+
+        width: 80px;
+        border: 1px solid rgba(255, 255, 255, 0.611);
+        padding: 10px;
+    }
+    .card-1{
+        width: 80%;
+        display: flex;
+        /* align-items: center; */
+        flex-direction: row;
+    }
+
+    .card-2{
+        width: 80%;
+
+        display: flex;
+        flex-direction: row;
+    }
+    .box-2{
+        width: 400px;
+        height: 353px;
+        padding-block: 60px;
+    }
+    .center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .box-2{
+        /* font-family:'Times New Roman', Times, serif; */
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .box-2 h3{
+        font-weight: 300;
+        font-size: 25px;
+    }
+     .box-2 p{
+        line-height: 30px;
+        font-weight: 200;
+     }
+    
+
+     .card-1 .box-2:first-child{
+        border-bottom: 1px solid  white;
+        border-right: 1px solid  white;
+     }
+
+     .card-1 .box-2:nth-child(2){
+        border-bottom: 1px solid white ;
+        border-right: 1px solid   white;
+     }
+    
+
+        
+
+    
+    
+    
+    .card-1 .box-2:nth-child(3){
+        border-bottom: 1px solid  white;
+        /* border-right: 1px solid  white; */
+
+    
+    
+    }
+
+    .card-2 .box-2:first-child{
+        border-right: 1px solid white;
+    }
+
+    
+    .card-2 .box-2:nth-child(2){
+       
+        border-right: 1px solid  white;
+
+    
+    
+    }
+
+    .content-sec{
+        width: 100%;
+        height: 84vh;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .box-3{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-size: 20px;
+        padding-inline: 19px;
+        /* justify-content: center; */
+        flex-direction: row;
+        border: 1px solid rgb(0, 0, 0);
+    }
+   
+
+    .box-3 p{
+        font-size: 17px;
+    }
+
+    .fooder-sec{
+        width: 100%;
+        height: 70vh;
+        display:flex;
+        background-color: #13071F;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    }
+    .fooder-content{
+        width: 80%;
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: space-around;align-items: center;
+    }
+
+    .box-4{
+        display: flex;
+        height: 40vh;
+        flex-direction: column;
+    }
+    .box-4 p {
+        line-height: 40px;
+        font-weight: 300;
+        font-size: 15px;
+    }
+    .box-4 h3{
+        font-weight: 300;
+        position: relative;
+        bottom: 20px;
+    }
+    .box-4 p i{
+        color: #ff357f;
+        position: relative;
+        right: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width:768px) {
+
+           .main-con{
+            width: 100%;
+            height: auto;
+           }
+
+        .navbar{
+          
+            
+            display: none;
+
+        
+        
+    }
+
+    .nav-res{
+        width: 100%;
+        height: 5em;
+        /* position: fixed; */
+        /* z-index: 10; */
+        display: inline;
+        background-color: #23182D;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    .nav-res i{
+        color: white;
+        font-size: 25px;
+        /* font-weight: 400; */
+    }
+    .nav-res img{
+        width: 120px;
+    }
+
+    .img-sec{
+        width: 100%;
+        height: auto;
+        gap: 20px;
+        padding: 0;
+        padding-left: 21px;
+        padding-bottom: 90px;
+        /* padding: 40px; */
+        flex-direction: row;
+    }
+    .img-sec .sec-1{
+         
+
+        width: 50%;
+        /* padding-left: 30px; */
+        height: auto;
+        display: flex;
+        gap: 70px;
+        padding: 0;
+        flex-direction: column;
+        
+
+    }
+    .img-sec .sec-2{
+        height: auto;
+        width: 50%;
+        display: flex;
+        padding: 0;
+        gap: 70px;
+        flex-direction: column;
+    }
+
+
+    .event-planet{
+        width: 100%;
+        align-items: center;
+        
+        height: 40vh;
+    }
+
+
+    .wedding-sec  h1{
+        font-size: 30px;
+    }
+    .wedding-sec{
+        padding-top: 20px;
+        width: 100%;
+        height: 40vh;
+        /* height: auto; */
+    }
+
+
+
+    .img-sec .sec-1 .box{
+        width: 95%;
+        height: 20em;
+        
+    }
+    .img-sec .sec-2 .box{
+        width: 95%;
+        height: 20em;
+    }
+
+    .service-sec{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .card-1{
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .center{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-1 .box-2:first-child{
+
+        display: flex;
+        border: none;
+         /* background-color: #FD226A; */
+          
+        
+    
+    }
+    .card-2 .box-2:first-child{
+
+        display: flex;
+        border: none;
+         /* background-color: #FD226A; */
+          
+        
+    
+    }
+    .card-1 .box-2:nth-child(3){
+        display: flex;
+        border: none;
+    }
+
+    .card-1 .box-2:nth-child(2){
+        display: flex;
+        border: none;
+    }
+    .card-2 .box-2:nth-child(2){
+        display: flex;
+        border: none;
+    }
+
+
+
+    .fooder-sec{
+        width: 100%;
+        height: auto;
+        padding-block: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+        .fooder-content{
+            width: 100%;
+            height: auto;
+            /* gap: 70px; */
+
+            /* padding-left: 50px; */
+            flex-direction:row;
+
+        }
+
+
+
+
+
+
+
+        
+
+
+}
